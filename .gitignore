@@ -1,0 +1,8 @@
+# python virtual environment folder
+/virtual
+# airflow files
+airflow*
+webserver_config.py
+/logs
+
+__pycache__

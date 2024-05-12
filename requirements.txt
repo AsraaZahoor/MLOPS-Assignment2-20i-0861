@@ -1,0 +1,6 @@
+requests
+bs4
+csv
+re
+time
+apache-airflow
