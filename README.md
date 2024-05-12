@@ -1,20 +1,26 @@
 # MLOps Implementation with Apache Airflow
 
-## Objective
-Implement Apache Airflow to automate the processes of data extraction, transformation, and version-controlled storage, focusing on data from `dawn.com` and `BBC.com`.
+## *Objective*
+Implemented Apache Airflow to automate the processes of data extraction, transformation, and version-controlled storage, focusing on data from `dawn.com` and `BBC.com`.
 
-## Overview
+## *Overview*
 This project uses Apache Airflow to orchestrate a workflow that automates the extraction of links, titles, and descriptions from articles on `dawn.com` and `BBC.com`, preprocesses the text data, and stores the transformed data in Google Drive. It also utilizes Data Version Control (DVC) to track versions of the data and metadata.
 
-## Tasks
+## *Tasks*
 - **Data Extraction:** Extract links, titles, and descriptions from the landing pages of `dawn.com` and `BBC.com`.
 - **Data Transformation:** Clean and format the extracted text data for further analysis.
 - **Data Storage and Version Control:** Store the processed data on Google Drive and use DVC to manage data versions, including metadata versioning on GitHub.
 - **Apache Airflow DAG Development:** Develop a DAG that automates the extraction, transformation, and storage processes with proper error management and task dependency handling.
 
-## Repository Structure
-```plaintext
-/
+## *Prerequisites*
+- Python 3.x
+- Apache Airflow
+- Data Version Control (DVC)
+- Git
+
+
+
+## *Repository Structure*
 |-- dags/
 |   |-- DataExtraction.py            # Airflow DAG script for scheduling and automating tasks
 |-- data/
@@ -24,3 +30,14 @@ This project uses Apache Airflow to orchestrate a workflow that automates the ex
 |-- requirements.txt             # Project dependencies
 |-- README.md                    # Project documentation and setup instructions
 |-- .dvc
+
+## *Below are some screenshots of Airflow working*
+![d11](https://github.com/AsraaZahoor/MLOPS-Assignment2-20i-0861/assets/125173520/e4cb8ecd-30f1-4ed5-a124-1149d7301ea6)
+
+![d1](https://github.com/AsraaZahoor/MLOPS-Assignment2-20i-0861/assets/125173520/a662f8e5-8538-4f5f-b0c8-8bd0ebed8596)
+
+![d2](https://github.com/AsraaZahoor/MLOPS-Assignment2-20i-0861/assets/125173520/08d32b37-8842-41e0-ad59-2c3ff99ca465)
+
+![d3](https://github.com/AsraaZahoor/MLOPS-Assignment2-20i-0861/assets/125173520/86c7c45e-b865-4b7a-9e0f-464f9da1ed43)
+
+
